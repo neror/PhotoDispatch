@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3C785F14890DD5004746D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3C785E14890DD5004746D0 /* UIKit.framework */; };
+		DF3C786114890DD5004746D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3C786014890DD5004746D0 /* Foundation.framework */; };
+		DF3C786314890DD5004746D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3C786214890DD5004746D0 /* CoreGraphics.framework */; };
+		DF3C786914890DD5004746D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF3C786714890DD5004746D0 /* InfoPlist.strings */; };
+		DF3C786B14890DD5004746D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3C786A14890DD5004746D0 /* main.m */; };
+		DF3C786F14890DD5004746D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3C786E14890DD5004746D0 /* AppDelegate.m */; };
+		DF3C787214890DD5004746D0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3C787114890DD5004746D0 /* MasterViewController.m */; };
+		DF3C787514890DD5004746D0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3C787414890DD5004746D0 /* DetailViewController.m */; };
+		DF3C787814890DD5004746D0 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF3C787614890DD5004746D0 /* MasterViewController.xib */; };
+		DF3C787B14890DD5004746D0 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF3C787914890DD5004746D0 /* DetailViewController.xib */; };
+		DF3C788214890E24004746D0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3C788114890E24004746D0 /* QuartzCore.framework */; };
+		DF3C788414890E30004746D0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3C788314890E30004746D0 /* ImageIO.framework */; };
+		DF3C78B614891432004746D0 /* Andromeda Galaxy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C788E14891432004746D0 /* Andromeda Galaxy.jpg */; };
+		DF3C78B714891432004746D0 /* Aqua Blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C788F14891432004746D0 /* Aqua Blue.jpg */; };
+		DF3C78B814891432004746D0 /* Aqua Graphite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789014891432004746D0 /* Aqua Graphite.jpg */; };
+		DF3C78B914891432004746D0 /* Beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789114891432004746D0 /* Beach.jpg */; };
+		DF3C78BA14891432004746D0 /* Bristle Grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789214891432004746D0 /* Bristle Grass.jpg */; };
+		DF3C78BB14891432004746D0 /* Classic Aqua Blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789314891432004746D0 /* Classic Aqua Blue.jpg */; };
+		DF3C78BC14891432004746D0 /* Classic Aqua Graphite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789414891432004746D0 /* Classic Aqua Graphite.jpg */; };
+		DF3C78BD14891432004746D0 /* Ducks on a Misty Pond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789514891432004746D0 /* Ducks on a Misty Pond.jpg */; };
+		DF3C78BE14891432004746D0 /* Eagle & Waterfall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789614891432004746D0 /* Eagle & Waterfall.jpg */; };
+		DF3C78BF14891432004746D0 /* Elephant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789714891432004746D0 /* Elephant.jpg */; };
+		DF3C78C014891432004746D0 /* Flamingos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789814891432004746D0 /* Flamingos.jpg */; };
+		DF3C78C114891432004746D0 /* Floating Leaves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789914891432004746D0 /* Floating Leaves.jpg */; };
+		DF3C78C214891432004746D0 /* Flow 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789A14891432004746D0 /* Flow 1.jpg */; };
+		DF3C78C314891432004746D0 /* Flow 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789B14891432004746D0 /* Flow 2.jpg */; };
+		DF3C78C414891432004746D0 /* Flow 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789C14891432004746D0 /* Flow 3.jpg */; };
+		DF3C78C514891432004746D0 /* Forest in Mist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789D14891432004746D0 /* Forest in Mist.jpg */; };
+		DF3C78C614891432004746D0 /* Grass Blades.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789E14891432004746D0 /* Grass Blades.jpg */; };
+		DF3C78C714891432004746D0 /* Isles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C789F14891432004746D0 /* Isles.jpg */; };
+		DF3C78C814891432004746D0 /* Jaguar Aqua Blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78A014891432004746D0 /* Jaguar Aqua Blue.jpg */; };
+		DF3C78C914891432004746D0 /* Jaguar Aqua Graphite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78A114891432004746D0 /* Jaguar Aqua Graphite.jpg */; };
+		DF3C78CA14891432004746D0 /* Lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78A214891432004746D0 /* Lake.jpg */; };
+		DF3C78CB14891432004746D0 /* Lines Blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78A314891432004746D0 /* Lines Blue.jpg */; };
+		DF3C78CC14891432004746D0 /* Lines Graphite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78A414891432004746D0 /* Lines Graphite.jpg */; };
+		DF3C78CD14891432004746D0 /* Lines Moss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78A514891432004746D0 /* Lines Moss.jpg */; };
+		DF3C78CE14891432004746D0 /* Lines Plum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78A614891432004746D0 /* Lines Plum.jpg */; };
+		DF3C78CF14891432004746D0 /* Lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78A714891432004746D0 /* Lion.jpg */; };
+		DF3C78D014891432004746D0 /* Moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78A814891432004746D0 /* Moon.jpg */; };
+		DF3C78D114891432004746D0 /* Mt. Fuji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78A914891432004746D0 /* Mt. Fuji.jpg */; };
+		DF3C78D214891432004746D0 /* Panther Aqua Blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78AA14891432004746D0 /* Panther Aqua Blue.jpg */; };
+		DF3C78D314891432004746D0 /* Panther Aqua Graphite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78AB14891432004746D0 /* Panther Aqua Graphite.jpg */; };
+		DF3C78D414891432004746D0 /* Pink Forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78AC14891432004746D0 /* Pink Forest.jpg */; };
+		DF3C78D514891432004746D0 /* Pink Lotus Flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78AD14891432004746D0 /* Pink Lotus Flower.jpg */; };
+		DF3C78D614891432004746D0 /* Poppies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78AE14891432004746D0 /* Poppies.jpg */; };
+		DF3C78D714891432004746D0 /* Red Bells.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78AF14891432004746D0 /* Red Bells.jpg */; };
+		DF3C78D814891432004746D0 /* Ripples Blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78B014891432004746D0 /* Ripples Blue.jpg */; };
+		DF3C78D914891432004746D0 /* Ripples Moss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78B114891432004746D0 /* Ripples Moss.jpg */; };
+		DF3C78DA14891432004746D0 /* Ripples Purple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78B214891432004746D0 /* Ripples Purple.jpg */; };
+		DF3C78DB14891432004746D0 /* Tiles Blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78B314891432004746D0 /* Tiles Blue.jpg */; };
+		DF3C78DC14891432004746D0 /* Tiles Pine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78B414891432004746D0 /* Tiles Pine.jpg */; };
+		DF3C78DD14891432004746D0 /* Tiles Warm Grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78B514891432004746D0 /* Tiles Warm Grey.jpg */; };
+		DF3C78E014891653004746D0 /* PhotoGridTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3C78DF14891653004746D0 /* PhotoGridTableCell.m */; };
+		DF3C78E2148922A7004746D0 /* ThumbnailLoadingImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78E1148922A7004746D0 /* ThumbnailLoadingImage.png */; };
+		DF3C79241489246A004746D0 /* Abstract 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78E31489246A004746D0 /* Abstract 1.jpg */; };
+		DF3C79251489246A004746D0 /* Abstract 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78E41489246A004746D0 /* Abstract 2.jpg */; };
+		DF3C79261489246A004746D0 /* Abstract 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78E51489246A004746D0 /* Abstract 3.jpg */; };
+		DF3C79271489246A004746D0 /* Abstract 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78E61489246A004746D0 /* Abstract 4.jpg */; };
+		DF3C79281489246A004746D0 /* Abstract 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78E71489246A004746D0 /* Abstract 5.jpg */; };
+		DF3C79291489246A004746D0 /* Abstract 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78E81489246A004746D0 /* Abstract 6.jpg */; };
+		DF3C792A1489246A004746D0 /* Abstract 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78E91489246A004746D0 /* Abstract 7.jpg */; };
+		DF3C792B1489246A004746D0 /* Abstract 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78EA1489246A004746D0 /* Abstract 8.jpg */; };
+		DF3C792C1489246A004746D0 /* Agave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78EB1489246A004746D0 /* Agave.jpg */; };
+		DF3C792D1489246A004746D0 /* Aurora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78EC1489246A004746D0 /* Aurora.jpg */; };
+		DF3C792E1489246A004746D0 /* Bamboo Grove.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78ED1489246A004746D0 /* Bamboo Grove.jpg */; };
+		DF3C792F1489246A004746D0 /* Cirques.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78EE1489246A004746D0 /* Cirques.jpg */; };
+		DF3C79301489246A004746D0 /* Clown Fish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78EF1489246A004746D0 /* Clown Fish.jpg */; };
+		DF3C79311489246A004746D0 /* Daisies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78F01489246A004746D0 /* Daisies.jpg */; };
+		DF3C79321489246A004746D0 /* Dancer on the Stage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78F11489246A004746D0 /* Dancer on the Stage.jpg */; };
+		DF3C79331489246A004746D0 /* Dandelion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78F21489246A004746D0 /* Dandelion.jpg */; };
+		DF3C79341489246A004746D0 /* Dew Drop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78F31489246A004746D0 /* Dew Drop.jpg */; };
+		DF3C79351489246A004746D0 /* Earth Horizon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78F41489246A004746D0 /* Earth Horizon.jpg */; };
+		DF3C79361489246A004746D0 /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78F51489246A004746D0 /* Earth.jpg */; };
+		DF3C79371489246A004746D0 /* Evening Reflections.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78F61489246A004746D0 /* Evening Reflections.jpg */; };
+		DF3C79381489246A004746D0 /* Fall Leaves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78F71489246A004746D0 /* Fall Leaves.jpg */; };
+		DF3C79391489246A004746D0 /* Flowing Rock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78F81489246A004746D0 /* Flowing Rock.jpg */; };
+		DF3C793A1489246A004746D0 /* Gentle Rapids.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78F91489246A004746D0 /* Gentle Rapids.jpg */; };
+		DF3C793B1489246A004746D0 /* Golden Palace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78FA1489246A004746D0 /* Golden Palace.jpg */; };
+		DF3C793C1489246A004746D0 /* Horizon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78FB1489246A004746D0 /* Horizon.jpg */; };
+		DF3C793D1489246A004746D0 /* Iceberg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78FC1489246A004746D0 /* Iceberg.jpg */; };
+		DF3C793E1489246A004746D0 /* Ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78FD1489246A004746D0 /* Ladybug.jpg */; };
+		DF3C793F1489246A004746D0 /* Lavender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78FE1489246A004746D0 /* Lavender.jpg */; };
+		DF3C79401489246A004746D0 /* Leaf Curl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C78FF1489246A004746D0 /* Leaf Curl.jpg */; };
+		DF3C79411489246A004746D0 /* Leaves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79001489246A004746D0 /* Leaves.jpg */; };
+		DF3C79421489246A004746D0 /* Leopard Aurora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79011489246A004746D0 /* Leopard Aurora.jpg */; };
+		DF3C79431489246A004746D0 /* Lightning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79021489246A004746D0 /* Lightning.jpg */; };
+		DF3C79441489246A004746D0 /* Lotus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79031489246A004746D0 /* Lotus.jpg */; };
+		DF3C79451489246A004746D0 /* Maple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79041489246A004746D0 /* Maple.jpg */; };
+		DF3C79461489246A004746D0 /* Mojave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79051489246A004746D0 /* Mojave.jpg */; };
+		DF3C79471489246A004746D0 /* Nighthawks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79061489246A004746D0 /* Nighthawks.jpg */; };
+		DF3C79481489246A004746D0 /* Peony.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79071489246A004746D0 /* Peony.jpg */; };
+		DF3C79491489246A004746D0 /* Petals.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79081489246A004746D0 /* Petals.jpg */; };
+		DF3C794A1489246A004746D0 /* Pier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79091489246A004746D0 /* Pier.jpg */; };
+		DF3C794B1489246A004746D0 /* Pinstripe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C790A1489246A004746D0 /* Pinstripe.jpg */; };
+		DF3C794C1489246A004746D0 /* Pond Reeds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C790B1489246A004746D0 /* Pond Reeds.jpg */; };
+		DF3C794D1489246A004746D0 /* Poppies Blooming.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C790C1489246A004746D0 /* Poppies Blooming.jpg */; };
+		DF3C794E1489246A004746D0 /* Purple Frond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C790D1489246A004746D0 /* Purple Frond.jpg */; };
+		DF3C794F1489246A004746D0 /* Redwoods.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C790E1489246A004746D0 /* Redwoods.jpg */; };
+		DF3C79501489246A004746D0 /* Rings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C790F1489246A004746D0 /* Rings.jpg */; };
+		DF3C79511489246A004746D0 /* Rock Garden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79101489246A004746D0 /* Rock Garden.jpg */; };
+		DF3C79521489246A004746D0 /* Rocks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79111489246A004746D0 /* Rocks.jpg */; };
+		DF3C79531489246A004746D0 /* Saree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79121489246A004746D0 /* Saree.jpg */; };
+		DF3C79541489246A004746D0 /* Sea Mist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79131489246A004746D0 /* Sea Mist.jpg */; };
+		DF3C79551489246A004746D0 /* Snow Leopard Prowl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79141489246A004746D0 /* Snow Leopard Prowl.jpg */; };
+		DF3C79561489246A004746D0 /* Snow Leopard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79151489246A004746D0 /* Snow Leopard.jpg */; };
+		DF3C79571489246A004746D0 /* Snowy Hills.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79161489246A004746D0 /* Snowy Hills.jpg */; };
+		DF3C79581489246A004746D0 /* Stones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79171489246A004746D0 /* Stones.jpg */; };
+		DF3C79591489246A004746D0 /* Summer Leaves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79181489246A004746D0 /* Summer Leaves.jpg */; };
+		DF3C795A1489246A004746D0 /* Summit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79191489246A004746D0 /* Summit.jpg */; };
+		DF3C795B1489246A004746D0 /* Sunday Afternoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C791A1489246A004746D0 /* Sunday Afternoon.jpg */; };
+		DF3C795C1489246A004746D0 /* Suprematism.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C791B1489246A004746D0 /* Suprematism.jpg */; };
+		DF3C795D1489246A004746D0 /* Tahoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C791C1489246A004746D0 /* Tahoe.jpg */; };
+		DF3C795E1489246A004746D0 /* The Great Wave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C791D1489246A004746D0 /* The Great Wave.jpg */; };
+		DF3C795F1489246A004746D0 /* Tranquil Surface.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C791E1489246A004746D0 /* Tranquil Surface.jpg */; };
+		DF3C79601489246A004746D0 /* Water Lilies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C791F1489246A004746D0 /* Water Lilies.jpg */; };
+		DF3C79611489246A004746D0 /* Water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79201489246A004746D0 /* Water.jpg */; };
+		DF3C79621489246A004746D0 /* Wave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79211489246A004746D0 /* Wave.jpg */; };
+		DF3C79631489246A004746D0 /* Winter Sunrise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79221489246A004746D0 /* Winter Sunrise.jpg */; };
+		DF3C79641489246A004746D0 /* Zebra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3C79231489246A004746D0 /* Zebra.jpg */; };
+		DF3C796714892724004746D0 /* FTUtils+UIGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3C796614892724004746D0 /* FTUtils+UIGestureRecognizer.m */; };
+		DF3C7969148932FF004746D0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3C7968148932FF004746D0 /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF3C785A14890DD5004746D0 /* PhotoDispatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoDispatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3C785E14890DD5004746D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF3C786014890DD5004746D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF3C786214890DD5004746D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF3C786614890DD5004746D0 /* PhotoDispatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoDispatch-Info.plist"; sourceTree = "<group>"; };
+		DF3C786814890DD5004746D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF3C786A14890DD5004746D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF3C786C14890DD5004746D0 /* PhotoDispatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoDispatch-Prefix.pch"; sourceTree = "<group>"; };
+		DF3C786D14890DD5004746D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF3C786E14890DD5004746D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF3C787014890DD5004746D0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		DF3C787114890DD5004746D0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		DF3C787314890DD5004746D0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DF3C787414890DD5004746D0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DF3C787714890DD5004746D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		DF3C787A14890DD5004746D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		DF3C788114890E24004746D0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF3C788314890E30004746D0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		DF3C788E14891432004746D0 /* Andromeda Galaxy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Andromeda Galaxy.jpg"; sourceTree = "<group>"; };
+		DF3C788F14891432004746D0 /* Aqua Blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aqua Blue.jpg"; sourceTree = "<group>"; };
+		DF3C789014891432004746D0 /* Aqua Graphite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aqua Graphite.jpg"; sourceTree = "<group>"; };
+		DF3C789114891432004746D0 /* Beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beach.jpg; sourceTree = "<group>"; };
+		DF3C789214891432004746D0 /* Bristle Grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bristle Grass.jpg"; sourceTree = "<group>"; };
+		DF3C789314891432004746D0 /* Classic Aqua Blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Classic Aqua Blue.jpg"; sourceTree = "<group>"; };
+		DF3C789414891432004746D0 /* Classic Aqua Graphite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Classic Aqua Graphite.jpg"; sourceTree = "<group>"; };
+		DF3C789514891432004746D0 /* Ducks on a Misty Pond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ducks on a Misty Pond.jpg"; sourceTree = "<group>"; };
+		DF3C789614891432004746D0 /* Eagle & Waterfall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eagle & Waterfall.jpg"; sourceTree = "<group>"; };
+		DF3C789714891432004746D0 /* Elephant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Elephant.jpg; sourceTree = "<group>"; };
+		DF3C789814891432004746D0 /* Flamingos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flamingos.jpg; sourceTree = "<group>"; };
+		DF3C789914891432004746D0 /* Floating Leaves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Floating Leaves.jpg"; sourceTree = "<group>"; };
+		DF3C789A14891432004746D0 /* Flow 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Flow 1.jpg"; sourceTree = "<group>"; };
+		DF3C789B14891432004746D0 /* Flow 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Flow 2.jpg"; sourceTree = "<group>"; };
+		DF3C789C14891432004746D0 /* Flow 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Flow 3.jpg"; sourceTree = "<group>"; };
+		DF3C789D14891432004746D0 /* Forest in Mist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Forest in Mist.jpg"; sourceTree = "<group>"; };
+		DF3C789E14891432004746D0 /* Grass Blades.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grass Blades.jpg"; sourceTree = "<group>"; };
+		DF3C789F14891432004746D0 /* Isles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isles.jpg; sourceTree = "<group>"; };
+		DF3C78A014891432004746D0 /* Jaguar Aqua Blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jaguar Aqua Blue.jpg"; sourceTree = "<group>"; };
+		DF3C78A114891432004746D0 /* Jaguar Aqua Graphite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jaguar Aqua Graphite.jpg"; sourceTree = "<group>"; };
+		DF3C78A214891432004746D0 /* Lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lake.jpg; sourceTree = "<group>"; };
+		DF3C78A314891432004746D0 /* Lines Blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lines Blue.jpg"; sourceTree = "<group>"; };
+		DF3C78A414891432004746D0 /* Lines Graphite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lines Graphite.jpg"; sourceTree = "<group>"; };
+		DF3C78A514891432004746D0 /* Lines Moss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lines Moss.jpg"; sourceTree = "<group>"; };
+		DF3C78A614891432004746D0 /* Lines Plum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lines Plum.jpg"; sourceTree = "<group>"; };
+		DF3C78A714891432004746D0 /* Lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lion.jpg; sourceTree = "<group>"; };
+		DF3C78A814891432004746D0 /* Moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Moon.jpg; sourceTree = "<group>"; };
+		DF3C78A914891432004746D0 /* Mt. Fuji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mt. Fuji.jpg"; sourceTree = "<group>"; };
+		DF3C78AA14891432004746D0 /* Panther Aqua Blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Panther Aqua Blue.jpg"; sourceTree = "<group>"; };
+		DF3C78AB14891432004746D0 /* Panther Aqua Graphite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Panther Aqua Graphite.jpg"; sourceTree = "<group>"; };
+		DF3C78AC14891432004746D0 /* Pink Forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pink Forest.jpg"; sourceTree = "<group>"; };
+		DF3C78AD14891432004746D0 /* Pink Lotus Flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pink Lotus Flower.jpg"; sourceTree = "<group>"; };
+		DF3C78AE14891432004746D0 /* Poppies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Poppies.jpg; sourceTree = "<group>"; };
+		DF3C78AF14891432004746D0 /* Red Bells.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Red Bells.jpg"; sourceTree = "<group>"; };
+		DF3C78B014891432004746D0 /* Ripples Blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ripples Blue.jpg"; sourceTree = "<group>"; };
+		DF3C78B114891432004746D0 /* Ripples Moss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ripples Moss.jpg"; sourceTree = "<group>"; };
+		DF3C78B214891432004746D0 /* Ripples Purple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ripples Purple.jpg"; sourceTree = "<group>"; };
+		DF3C78B314891432004746D0 /* Tiles Blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tiles Blue.jpg"; sourceTree = "<group>"; };
+		DF3C78B414891432004746D0 /* Tiles Pine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tiles Pine.jpg"; sourceTree = "<group>"; };
+		DF3C78B514891432004746D0 /* Tiles Warm Grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tiles Warm Grey.jpg"; sourceTree = "<group>"; };
+		DF3C78DE14891653004746D0 /* PhotoGridTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoGridTableCell.h; sourceTree = "<group>"; };
+		DF3C78DF14891653004746D0 /* PhotoGridTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoGridTableCell.m; sourceTree = "<group>"; };
+		DF3C78E1148922A7004746D0 /* ThumbnailLoadingImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ThumbnailLoadingImage.png; sourceTree = "<group>"; };
+		DF3C78E31489246A004746D0 /* Abstract 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abstract 1.jpg"; sourceTree = "<group>"; };
+		DF3C78E41489246A004746D0 /* Abstract 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abstract 2.jpg"; sourceTree = "<group>"; };
+		DF3C78E51489246A004746D0 /* Abstract 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abstract 3.jpg"; sourceTree = "<group>"; };
+		DF3C78E61489246A004746D0 /* Abstract 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abstract 4.jpg"; sourceTree = "<group>"; };
+		DF3C78E71489246A004746D0 /* Abstract 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abstract 5.jpg"; sourceTree = "<group>"; };
+		DF3C78E81489246A004746D0 /* Abstract 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abstract 6.jpg"; sourceTree = "<group>"; };
+		DF3C78E91489246A004746D0 /* Abstract 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abstract 7.jpg"; sourceTree = "<group>"; };
+		DF3C78EA1489246A004746D0 /* Abstract 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abstract 8.jpg"; sourceTree = "<group>"; };
+		DF3C78EB1489246A004746D0 /* Agave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Agave.jpg; sourceTree = "<group>"; };
+		DF3C78EC1489246A004746D0 /* Aurora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aurora.jpg; sourceTree = "<group>"; };
+		DF3C78ED1489246A004746D0 /* Bamboo Grove.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bamboo Grove.jpg"; sourceTree = "<group>"; };
+		DF3C78EE1489246A004746D0 /* Cirques.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cirques.jpg; sourceTree = "<group>"; };
+		DF3C78EF1489246A004746D0 /* Clown Fish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Clown Fish.jpg"; sourceTree = "<group>"; };
+		DF3C78F01489246A004746D0 /* Daisies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Daisies.jpg; sourceTree = "<group>"; };
+		DF3C78F11489246A004746D0 /* Dancer on the Stage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dancer on the Stage.jpg"; sourceTree = "<group>"; };
+		DF3C78F21489246A004746D0 /* Dandelion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dandelion.jpg; sourceTree = "<group>"; };
+		DF3C78F31489246A004746D0 /* Dew Drop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dew Drop.jpg"; sourceTree = "<group>"; };
+		DF3C78F41489246A004746D0 /* Earth Horizon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Earth Horizon.jpg"; sourceTree = "<group>"; };
+		DF3C78F51489246A004746D0 /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpg; sourceTree = "<group>"; };
+		DF3C78F61489246A004746D0 /* Evening Reflections.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Evening Reflections.jpg"; sourceTree = "<group>"; };
+		DF3C78F71489246A004746D0 /* Fall Leaves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fall Leaves.jpg"; sourceTree = "<group>"; };
+		DF3C78F81489246A004746D0 /* Flowing Rock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Flowing Rock.jpg"; sourceTree = "<group>"; };
+		DF3C78F91489246A004746D0 /* Gentle Rapids.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gentle Rapids.jpg"; sourceTree = "<group>"; };
+		DF3C78FA1489246A004746D0 /* Golden Palace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Golden Palace.jpg"; sourceTree = "<group>"; };
+		DF3C78FB1489246A004746D0 /* Horizon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Horizon.jpg; sourceTree = "<group>"; };
+		DF3C78FC1489246A004746D0 /* Iceberg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Iceberg.jpg; sourceTree = "<group>"; };
+		DF3C78FD1489246A004746D0 /* Ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ladybug.jpg; sourceTree = "<group>"; };
+		DF3C78FE1489246A004746D0 /* Lavender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lavender.jpg; sourceTree = "<group>"; };
+		DF3C78FF1489246A004746D0 /* Leaf Curl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Leaf Curl.jpg"; sourceTree = "<group>"; };
+		DF3C79001489246A004746D0 /* Leaves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Leaves.jpg; sourceTree = "<group>"; };
+		DF3C79011489246A004746D0 /* Leopard Aurora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Leopard Aurora.jpg"; sourceTree = "<group>"; };
+		DF3C79021489246A004746D0 /* Lightning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lightning.jpg; sourceTree = "<group>"; };
+		DF3C79031489246A004746D0 /* Lotus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lotus.jpg; sourceTree = "<group>"; };
+		DF3C79041489246A004746D0 /* Maple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Maple.jpg; sourceTree = "<group>"; };
+		DF3C79051489246A004746D0 /* Mojave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mojave.jpg; sourceTree = "<group>"; };
+		DF3C79061489246A004746D0 /* Nighthawks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nighthawks.jpg; sourceTree = "<group>"; };
+		DF3C79071489246A004746D0 /* Peony.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Peony.jpg; sourceTree = "<group>"; };
+		DF3C79081489246A004746D0 /* Petals.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Petals.jpg; sourceTree = "<group>"; };
+		DF3C79091489246A004746D0 /* Pier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pier.jpg; sourceTree = "<group>"; };
+		DF3C790A1489246A004746D0 /* Pinstripe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pinstripe.jpg; sourceTree = "<group>"; };
+		DF3C790B1489246A004746D0 /* Pond Reeds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pond Reeds.jpg"; sourceTree = "<group>"; };
+		DF3C790C1489246A004746D0 /* Poppies Blooming.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Poppies Blooming.jpg"; sourceTree = "<group>"; };
+		DF3C790D1489246A004746D0 /* Purple Frond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Purple Frond.jpg"; sourceTree = "<group>"; };
+		DF3C790E1489246A004746D0 /* Redwoods.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Redwoods.jpg; sourceTree = "<group>"; };
+		DF3C790F1489246A004746D0 /* Rings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rings.jpg; sourceTree = "<group>"; };
+		DF3C79101489246A004746D0 /* Rock Garden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rock Garden.jpg"; sourceTree = "<group>"; };
+		DF3C79111489246A004746D0 /* Rocks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rocks.jpg; sourceTree = "<group>"; };
+		DF3C79121489246A004746D0 /* Saree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saree.jpg; sourceTree = "<group>"; };
+		DF3C79131489246A004746D0 /* Sea Mist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sea Mist.jpg"; sourceTree = "<group>"; };
+		DF3C79141489246A004746D0 /* Snow Leopard Prowl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Snow Leopard Prowl.jpg"; sourceTree = "<group>"; };
+		DF3C79151489246A004746D0 /* Snow Leopard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Snow Leopard.jpg"; sourceTree = "<group>"; };
+		DF3C79161489246A004746D0 /* Snowy Hills.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Snowy Hills.jpg"; sourceTree = "<group>"; };
+		DF3C79171489246A004746D0 /* Stones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stones.jpg; sourceTree = "<group>"; };
+		DF3C79181489246A004746D0 /* Summer Leaves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Summer Leaves.jpg"; sourceTree = "<group>"; };
+		DF3C79191489246A004746D0 /* Summit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Summit.jpg; sourceTree = "<group>"; };
+		DF3C791A1489246A004746D0 /* Sunday Afternoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sunday Afternoon.jpg"; sourceTree = "<group>"; };
+		DF3C791B1489246A004746D0 /* Suprematism.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Suprematism.jpg; sourceTree = "<group>"; };
+		DF3C791C1489246A004746D0 /* Tahoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tahoe.jpg; sourceTree = "<group>"; };
+		DF3C791D1489246A004746D0 /* The Great Wave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Great Wave.jpg"; sourceTree = "<group>"; };
+		DF3C791E1489246A004746D0 /* Tranquil Surface.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tranquil Surface.jpg"; sourceTree = "<group>"; };
+		DF3C791F1489246A004746D0 /* Water Lilies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Water Lilies.jpg"; sourceTree = "<group>"; };
+		DF3C79201489246A004746D0 /* Water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Water.jpg; sourceTree = "<group>"; };
+		DF3C79211489246A004746D0 /* Wave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wave.jpg; sourceTree = "<group>"; };
+		DF3C79221489246A004746D0 /* Winter Sunrise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Winter Sunrise.jpg"; sourceTree = "<group>"; };
+		DF3C79231489246A004746D0 /* Zebra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zebra.jpg; sourceTree = "<group>"; };
+		DF3C796514892724004746D0 /* FTUtils+UIGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTUtils+UIGestureRecognizer.h"; sourceTree = "<group>"; };
+		DF3C796614892724004746D0 /* FTUtils+UIGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FTUtils+UIGestureRecognizer.m"; sourceTree = "<group>"; };
+		DF3C7968148932FF004746D0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DF3C797F148A7913004746D0 /* ImageHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHelpers.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF3C785714890DD5004746D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3C7969148932FF004746D0 /* Accelerate.framework in Frameworks */,
+				DF3C788414890E30004746D0 /* ImageIO.framework in Frameworks */,
+				DF3C788214890E24004746D0 /* QuartzCore.framework in Frameworks */,
+				DF3C785F14890DD5004746D0 /* UIKit.framework in Frameworks */,
+				DF3C786114890DD5004746D0 /* Foundation.framework in Frameworks */,
+				DF3C786314890DD5004746D0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF3C784F14890DD5004746D0 = {
+			isa = PBXGroup;
+			children = (
+				DF3C786414890DD5004746D0 /* PhotoDispatch */,
+				DF3C788D14891431004746D0 /* Images */,
+				DF3C785D14890DD5004746D0 /* Frameworks */,
+				DF3C785B14890DD5004746D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF3C785B14890DD5004746D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF3C785A14890DD5004746D0 /* PhotoDispatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF3C785D14890DD5004746D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF3C7968148932FF004746D0 /* Accelerate.framework */,
+				DF3C788314890E30004746D0 /* ImageIO.framework */,
+				DF3C788114890E24004746D0 /* QuartzCore.framework */,
+				DF3C785E14890DD5004746D0 /* UIKit.framework */,
+				DF3C786014890DD5004746D0 /* Foundation.framework */,
+				DF3C786214890DD5004746D0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF3C786414890DD5004746D0 /* PhotoDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				DF3C797F148A7913004746D0 /* ImageHelpers.h */,
+				DF3C786D14890DD5004746D0 /* AppDelegate.h */,
+				DF3C786E14890DD5004746D0 /* AppDelegate.m */,
+				DF3C787014890DD5004746D0 /* MasterViewController.h */,
+				DF3C787114890DD5004746D0 /* MasterViewController.m */,
+				DF3C787314890DD5004746D0 /* DetailViewController.h */,
+				DF3C787414890DD5004746D0 /* DetailViewController.m */,
+				DF3C78DE14891653004746D0 /* PhotoGridTableCell.h */,
+				DF3C78DF14891653004746D0 /* PhotoGridTableCell.m */,
+				DF3C796514892724004746D0 /* FTUtils+UIGestureRecognizer.h */,
+				DF3C796614892724004746D0 /* FTUtils+UIGestureRecognizer.m */,
+				DF3C787614890DD5004746D0 /* MasterViewController.xib */,
+				DF3C787914890DD5004746D0 /* DetailViewController.xib */,
+				DF3C78E1148922A7004746D0 /* ThumbnailLoadingImage.png */,
+				DF3C786514890DD5004746D0 /* Supporting Files */,
+			);
+			path = PhotoDispatch;
+			sourceTree = "<group>";
+		};
+		DF3C786514890DD5004746D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF3C786614890DD5004746D0 /* PhotoDispatch-Info.plist */,
+				DF3C786714890DD5004746D0 /* InfoPlist.strings */,
+				DF3C786A14890DD5004746D0 /* main.m */,
+				DF3C786C14890DD5004746D0 /* PhotoDispatch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF3C788D14891431004746D0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DF3C78E31489246A004746D0 /* Abstract 1.jpg */,
+				DF3C78E41489246A004746D0 /* Abstract 2.jpg */,
+				DF3C78E51489246A004746D0 /* Abstract 3.jpg */,
+				DF3C78E61489246A004746D0 /* Abstract 4.jpg */,
+				DF3C78E71489246A004746D0 /* Abstract 5.jpg */,
+				DF3C78E81489246A004746D0 /* Abstract 6.jpg */,
+				DF3C78E91489246A004746D0 /* Abstract 7.jpg */,
+				DF3C78EA1489246A004746D0 /* Abstract 8.jpg */,
+				DF3C78EB1489246A004746D0 /* Agave.jpg */,
+				DF3C78EC1489246A004746D0 /* Aurora.jpg */,
+				DF3C78ED1489246A004746D0 /* Bamboo Grove.jpg */,
+				DF3C78EE1489246A004746D0 /* Cirques.jpg */,
+				DF3C78EF1489246A004746D0 /* Clown Fish.jpg */,
+				DF3C78F01489246A004746D0 /* Daisies.jpg */,
+				DF3C78F11489246A004746D0 /* Dancer on the Stage.jpg */,
+				DF3C78F21489246A004746D0 /* Dandelion.jpg */,
+				DF3C78F31489246A004746D0 /* Dew Drop.jpg */,
+				DF3C78F41489246A004746D0 /* Earth Horizon.jpg */,
+				DF3C78F51489246A004746D0 /* Earth.jpg */,
+				DF3C78F61489246A004746D0 /* Evening Reflections.jpg */,
+				DF3C78F71489246A004746D0 /* Fall Leaves.jpg */,
+				DF3C78F81489246A004746D0 /* Flowing Rock.jpg */,
+				DF3C78F91489246A004746D0 /* Gentle Rapids.jpg */,
+				DF3C78FA1489246A004746D0 /* Golden Palace.jpg */,
+				DF3C78FB1489246A004746D0 /* Horizon.jpg */,
+				DF3C78FC1489246A004746D0 /* Iceberg.jpg */,
+				DF3C78FD1489246A004746D0 /* Ladybug.jpg */,
+				DF3C78FE1489246A004746D0 /* Lavender.jpg */,
+				DF3C78FF1489246A004746D0 /* Leaf Curl.jpg */,
+				DF3C79001489246A004746D0 /* Leaves.jpg */,
+				DF3C79011489246A004746D0 /* Leopard Aurora.jpg */,
+				DF3C79021489246A004746D0 /* Lightning.jpg */,
+				DF3C79031489246A004746D0 /* Lotus.jpg */,
+				DF3C79041489246A004746D0 /* Maple.jpg */,
+				DF3C79051489246A004746D0 /* Mojave.jpg */,
+				DF3C79061489246A004746D0 /* Nighthawks.jpg */,
+				DF3C79071489246A004746D0 /* Peony.jpg */,
+				DF3C79081489246A004746D0 /* Petals.jpg */,
+				DF3C79091489246A004746D0 /* Pier.jpg */,
+				DF3C790A1489246A004746D0 /* Pinstripe.jpg */,
+				DF3C790B1489246A004746D0 /* Pond Reeds.jpg */,
+				DF3C790C1489246A004746D0 /* Poppies Blooming.jpg */,
+				DF3C790D1489246A004746D0 /* Purple Frond.jpg */,
+				DF3C790E1489246A004746D0 /* Redwoods.jpg */,
+				DF3C790F1489246A004746D0 /* Rings.jpg */,
+				DF3C79101489246A004746D0 /* Rock Garden.jpg */,
+				DF3C79111489246A004746D0 /* Rocks.jpg */,
+				DF3C79121489246A004746D0 /* Saree.jpg */,
+				DF3C79131489246A004746D0 /* Sea Mist.jpg */,
+				DF3C79141489246A004746D0 /* Snow Leopard Prowl.jpg */,
+				DF3C79151489246A004746D0 /* Snow Leopard.jpg */,
+				DF3C79161489246A004746D0 /* Snowy Hills.jpg */,
+				DF3C79171489246A004746D0 /* Stones.jpg */,
+				DF3C79181489246A004746D0 /* Summer Leaves.jpg */,
+				DF3C79191489246A004746D0 /* Summit.jpg */,
+				DF3C791A1489246A004746D0 /* Sunday Afternoon.jpg */,
+				DF3C791B1489246A004746D0 /* Suprematism.jpg */,
+				DF3C791C1489246A004746D0 /* Tahoe.jpg */,
+				DF3C791D1489246A004746D0 /* The Great Wave.jpg */,
+				DF3C791E1489246A004746D0 /* Tranquil Surface.jpg */,
+				DF3C791F1489246A004746D0 /* Water Lilies.jpg */,
+				DF3C79201489246A004746D0 /* Water.jpg */,
+				DF3C79211489246A004746D0 /* Wave.jpg */,
+				DF3C79221489246A004746D0 /* Winter Sunrise.jpg */,
+				DF3C79231489246A004746D0 /* Zebra.jpg */,
+				DF3C788E14891432004746D0 /* Andromeda Galaxy.jpg */,
+				DF3C788F14891432004746D0 /* Aqua Blue.jpg */,
+				DF3C789014891432004746D0 /* Aqua Graphite.jpg */,
+				DF3C789114891432004746D0 /* Beach.jpg */,
+				DF3C789214891432004746D0 /* Bristle Grass.jpg */,
+				DF3C789314891432004746D0 /* Classic Aqua Blue.jpg */,
+				DF3C789414891432004746D0 /* Classic Aqua Graphite.jpg */,
+				DF3C789514891432004746D0 /* Ducks on a Misty Pond.jpg */,
+				DF3C789614891432004746D0 /* Eagle & Waterfall.jpg */,
+				DF3C789714891432004746D0 /* Elephant.jpg */,
+				DF3C789814891432004746D0 /* Flamingos.jpg */,
+				DF3C789914891432004746D0 /* Floating Leaves.jpg */,
+				DF3C789A14891432004746D0 /* Flow 1.jpg */,
+				DF3C789B14891432004746D0 /* Flow 2.jpg */,
+				DF3C789C14891432004746D0 /* Flow 3.jpg */,
+				DF3C789D14891432004746D0 /* Forest in Mist.jpg */,
+				DF3C789E14891432004746D0 /* Grass Blades.jpg */,
+				DF3C789F14891432004746D0 /* Isles.jpg */,
+				DF3C78A014891432004746D0 /* Jaguar Aqua Blue.jpg */,
+				DF3C78A114891432004746D0 /* Jaguar Aqua Graphite.jpg */,
+				DF3C78A214891432004746D0 /* Lake.jpg */,
+				DF3C78A314891432004746D0 /* Lines Blue.jpg */,
+				DF3C78A414891432004746D0 /* Lines Graphite.jpg */,
+				DF3C78A514891432004746D0 /* Lines Moss.jpg */,
+				DF3C78A614891432004746D0 /* Lines Plum.jpg */,
+				DF3C78A714891432004746D0 /* Lion.jpg */,
+				DF3C78A814891432004746D0 /* Moon.jpg */,
+				DF3C78A914891432004746D0 /* Mt. Fuji.jpg */,
+				DF3C78AA14891432004746D0 /* Panther Aqua Blue.jpg */,
+				DF3C78AB14891432004746D0 /* Panther Aqua Graphite.jpg */,
+				DF3C78AC14891432004746D0 /* Pink Forest.jpg */,
+				DF3C78AD14891432004746D0 /* Pink Lotus Flower.jpg */,
+				DF3C78AE14891432004746D0 /* Poppies.jpg */,
+				DF3C78AF14891432004746D0 /* Red Bells.jpg */,
+				DF3C78B014891432004746D0 /* Ripples Blue.jpg */,
+				DF3C78B114891432004746D0 /* Ripples Moss.jpg */,
+				DF3C78B214891432004746D0 /* Ripples Purple.jpg */,
+				DF3C78B314891432004746D0 /* Tiles Blue.jpg */,
+				DF3C78B414891432004746D0 /* Tiles Pine.jpg */,
+				DF3C78B514891432004746D0 /* Tiles Warm Grey.jpg */,
+			);
+			name = Images;
+			path = PhotoDispatch/Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF3C785914890DD5004746D0 /* PhotoDispatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3C787E14890DD5004746D0 /* Build configuration list for PBXNativeTarget "PhotoDispatch" */;
+			buildPhases = (
+				DF3C785614890DD5004746D0 /* Sources */,
+				DF3C785714890DD5004746D0 /* Frameworks */,
+				DF3C785814890DD5004746D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoDispatch;
+			productName = PhotoDispatch;
+			productReference = DF3C785A14890DD5004746D0 /* PhotoDispatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF3C785114890DD5004746D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Free Time Studios";
+			};
+			buildConfigurationList = DF3C785414890DD5004746D0 /* Build configuration list for PBXProject "PhotoDispatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF3C784F14890DD5004746D0;
+			productRefGroup = DF3C785B14890DD5004746D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF3C785914890DD5004746D0 /* PhotoDispatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF3C785814890DD5004746D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3C786914890DD5004746D0 /* InfoPlist.strings in Resources */,
+				DF3C787814890DD5004746D0 /* MasterViewController.xib in Resources */,
+				DF3C787B14890DD5004746D0 /* DetailViewController.xib in Resources */,
+				DF3C78B614891432004746D0 /* Andromeda Galaxy.jpg in Resources */,
+				DF3C78B714891432004746D0 /* Aqua Blue.jpg in Resources */,
+				DF3C78B814891432004746D0 /* Aqua Graphite.jpg in Resources */,
+				DF3C78B914891432004746D0 /* Beach.jpg in Resources */,
+				DF3C78BA14891432004746D0 /* Bristle Grass.jpg in Resources */,
+				DF3C78BB14891432004746D0 /* Classic Aqua Blue.jpg in Resources */,
+				DF3C78BC14891432004746D0 /* Classic Aqua Graphite.jpg in Resources */,
+				DF3C78BD14891432004746D0 /* Ducks on a Misty Pond.jpg in Resources */,
+				DF3C78BE14891432004746D0 /* Eagle & Waterfall.jpg in Resources */,
+				DF3C78BF14891432004746D0 /* Elephant.jpg in Resources */,
+				DF3C78C014891432004746D0 /* Flamingos.jpg in Resources */,
+				DF3C78C114891432004746D0 /* Floating Leaves.jpg in Resources */,
+				DF3C78C214891432004746D0 /* Flow 1.jpg in Resources */,
+				DF3C78C314891432004746D0 /* Flow 2.jpg in Resources */,
+				DF3C78C414891432004746D0 /* Flow 3.jpg in Resources */,
+				DF3C78C514891432004746D0 /* Forest in Mist.jpg in Resources */,
+				DF3C78C614891432004746D0 /* Grass Blades.jpg in Resources */,
+				DF3C78C714891432004746D0 /* Isles.jpg in Resources */,
+				DF3C78C814891432004746D0 /* Jaguar Aqua Blue.jpg in Resources */,
+				DF3C78C914891432004746D0 /* Jaguar Aqua Graphite.jpg in Resources */,
+				DF3C78CA14891432004746D0 /* Lake.jpg in Resources */,
+				DF3C78CB14891432004746D0 /* Lines Blue.jpg in Resources */,
+				DF3C78CC14891432004746D0 /* Lines Graphite.jpg in Resources */,
+				DF3C78CD14891432004746D0 /* Lines Moss.jpg in Resources */,
+				DF3C78CE14891432004746D0 /* Lines Plum.jpg in Resources */,
+				DF3C78CF14891432004746D0 /* Lion.jpg in Resources */,
+				DF3C78D014891432004746D0 /* Moon.jpg in Resources */,
+				DF3C78D114891432004746D0 /* Mt. Fuji.jpg in Resources */,
+				DF3C78D214891432004746D0 /* Panther Aqua Blue.jpg in Resources */,
+				DF3C78D314891432004746D0 /* Panther Aqua Graphite.jpg in Resources */,
+				DF3C78D414891432004746D0 /* Pink Forest.jpg in Resources */,
+				DF3C78D514891432004746D0 /* Pink Lotus Flower.jpg in Resources */,
+				DF3C78D614891432004746D0 /* Poppies.jpg in Resources */,
+				DF3C78D714891432004746D0 /* Red Bells.jpg in Resources */,
+				DF3C78D814891432004746D0 /* Ripples Blue.jpg in Resources */,
+				DF3C78D914891432004746D0 /* Ripples Moss.jpg in Resources */,
+				DF3C78DA14891432004746D0 /* Ripples Purple.jpg in Resources */,
+				DF3C78DB14891432004746D0 /* Tiles Blue.jpg in Resources */,
+				DF3C78DC14891432004746D0 /* Tiles Pine.jpg in Resources */,
+				DF3C78DD14891432004746D0 /* Tiles Warm Grey.jpg in Resources */,
+				DF3C78E2148922A7004746D0 /* ThumbnailLoadingImage.png in Resources */,
+				DF3C79241489246A004746D0 /* Abstract 1.jpg in Resources */,
+				DF3C79251489246A004746D0 /* Abstract 2.jpg in Resources */,
+				DF3C79261489246A004746D0 /* Abstract 3.jpg in Resources */,
+				DF3C79271489246A004746D0 /* Abstract 4.jpg in Resources */,
+				DF3C79281489246A004746D0 /* Abstract 5.jpg in Resources */,
+				DF3C79291489246A004746D0 /* Abstract 6.jpg in Resources */,
+				DF3C792A1489246A004746D0 /* Abstract 7.jpg in Resources */,
+				DF3C792B1489246A004746D0 /* Abstract 8.jpg in Resources */,
+				DF3C792C1489246A004746D0 /* Agave.jpg in Resources */,
+				DF3C792D1489246A004746D0 /* Aurora.jpg in Resources */,
+				DF3C792E1489246A004746D0 /* Bamboo Grove.jpg in Resources */,
+				DF3C792F1489246A004746D0 /* Cirques.jpg in Resources */,
+				DF3C79301489246A004746D0 /* Clown Fish.jpg in Resources */,
+				DF3C79311489246A004746D0 /* Daisies.jpg in Resources */,
+				DF3C79321489246A004746D0 /* Dancer on the Stage.jpg in Resources */,
+				DF3C79331489246A004746D0 /* Dandelion.jpg in Resources */,
+				DF3C79341489246A004746D0 /* Dew Drop.jpg in Resources */,
+				DF3C79351489246A004746D0 /* Earth Horizon.jpg in Resources */,
+				DF3C79361489246A004746D0 /* Earth.jpg in Resources */,
+				DF3C79371489246A004746D0 /* Evening Reflections.jpg in Resources */,
+				DF3C79381489246A004746D0 /* Fall Leaves.jpg in Resources */,
+				DF3C79391489246A004746D0 /* Flowing Rock.jpg in Resources */,
+				DF3C793A1489246A004746D0 /* Gentle Rapids.jpg in Resources */,
+				DF3C793B1489246A004746D0 /* Golden Palace.jpg in Resources */,
+				DF3C793C1489246A004746D0 /* Horizon.jpg in Resources */,
+				DF3C793D1489246A004746D0 /* Iceberg.jpg in Resources */,
+				DF3C793E1489246A004746D0 /* Ladybug.jpg in Resources */,
+				DF3C793F1489246A004746D0 /* Lavender.jpg in Resources */,
+				DF3C79401489246A004746D0 /* Leaf Curl.jpg in Resources */,
+				DF3C79411489246A004746D0 /* Leaves.jpg in Resources */,
+				DF3C79421489246A004746D0 /* Leopard Aurora.jpg in Resources */,
+				DF3C79431489246A004746D0 /* Lightning.jpg in Resources */,
+				DF3C79441489246A004746D0 /* Lotus.jpg in Resources */,
+				DF3C79451489246A004746D0 /* Maple.jpg in Resources */,
+				DF3C79461489246A004746D0 /* Mojave.jpg in Resources */,
+				DF3C79471489246A004746D0 /* Nighthawks.jpg in Resources */,
+				DF3C79481489246A004746D0 /* Peony.jpg in Resources */,
+				DF3C79491489246A004746D0 /* Petals.jpg in Resources */,
+				DF3C794A1489246A004746D0 /* Pier.jpg in Resources */,
+				DF3C794B1489246A004746D0 /* Pinstripe.jpg in Resources */,
+				DF3C794C1489246A004746D0 /* Pond Reeds.jpg in Resources */,
+				DF3C794D1489246A004746D0 /* Poppies Blooming.jpg in Resources */,
+				DF3C794E1489246A004746D0 /* Purple Frond.jpg in Resources */,
+				DF3C794F1489246A004746D0 /* Redwoods.jpg in Resources */,
+				DF3C79501489246A004746D0 /* Rings.jpg in Resources */,
+				DF3C79511489246A004746D0 /* Rock Garden.jpg in Resources */,
+				DF3C79521489246A004746D0 /* Rocks.jpg in Resources */,
+				DF3C79531489246A004746D0 /* Saree.jpg in Resources */,
+				DF3C79541489246A004746D0 /* Sea Mist.jpg in Resources */,
+				DF3C79551489246A004746D0 /* Snow Leopard Prowl.jpg in Resources */,
+				DF3C79561489246A004746D0 /* Snow Leopard.jpg in Resources */,
+				DF3C79571489246A004746D0 /* Snowy Hills.jpg in Resources */,
+				DF3C79581489246A004746D0 /* Stones.jpg in Resources */,
+				DF3C79591489246A004746D0 /* Summer Leaves.jpg in Resources */,
+				DF3C795A1489246A004746D0 /* Summit.jpg in Resources */,
+				DF3C795B1489246A004746D0 /* Sunday Afternoon.jpg in Resources */,
+				DF3C795C1489246A004746D0 /* Suprematism.jpg in Resources */,
+				DF3C795D1489246A004746D0 /* Tahoe.jpg in Resources */,
+				DF3C795E1489246A004746D0 /* The Great Wave.jpg in Resources */,
+				DF3C795F1489246A004746D0 /* Tranquil Surface.jpg in Resources */,
+				DF3C79601489246A004746D0 /* Water Lilies.jpg in Resources */,
+				DF3C79611489246A004746D0 /* Water.jpg in Resources */,
+				DF3C79621489246A004746D0 /* Wave.jpg in Resources */,
+				DF3C79631489246A004746D0 /* Winter Sunrise.jpg in Resources */,
+				DF3C79641489246A004746D0 /* Zebra.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF3C785614890DD5004746D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3C786B14890DD5004746D0 /* main.m in Sources */,
+				DF3C786F14890DD5004746D0 /* AppDelegate.m in Sources */,
+				DF3C787214890DD5004746D0 /* MasterViewController.m in Sources */,
+				DF3C787514890DD5004746D0 /* DetailViewController.m in Sources */,
+				DF3C78E014891653004746D0 /* PhotoGridTableCell.m in Sources */,
+				DF3C796714892724004746D0 /* FTUtils+UIGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF3C786714890DD5004746D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3C786814890DD5004746D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF3C787614890DD5004746D0 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3C787714890DD5004746D0 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		DF3C787914890DD5004746D0 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3C787A14890DD5004746D0 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF3C787C14890DD5004746D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF3C787D14890DD5004746D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF3C787F14890DD5004746D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoDispatch/PhotoDispatch-Prefix.pch";
+				INFOPLIST_FILE = "PhotoDispatch/PhotoDispatch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF3C788014890DD5004746D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoDispatch/PhotoDispatch-Prefix.pch";
+				INFOPLIST_FILE = "PhotoDispatch/PhotoDispatch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF3C785414890DD5004746D0 /* Build configuration list for PBXProject "PhotoDispatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3C787C14890DD5004746D0 /* Debug */,
+				DF3C787D14890DD5004746D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3C787E14890DD5004746D0 /* Build configuration list for PBXNativeTarget "PhotoDispatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3C787F14890DD5004746D0 /* Debug */,
+				DF3C788014890DD5004746D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF3C785114890DD5004746D0 /* Project object */;
+}
